@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1077831681672",
+    "project_id": "cake-panda-f9bbf",
+    "storage_bucket": "cake-panda-f9bbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077831681672:android:6cebb0c4ed564e66ef813d",
+        "android_client_info": {
+          "package_name": "com.stepupit.cakepanda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077831681672-cv1sbq46of16u3ikgiav8bpejegpjl8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stepupit.cakepanda",
+            "certificate_hash": "7dc1cffdf1e479e9b141bd44ba7591ecded998f4"
+          }
+        },
+        {
+          "client_id": "1077831681672-uou37j2cpni88api21k01njantgovpbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Wvnu_lJOMaOivPfeHJTNviB-d4Jml1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077831681672-uou37j2cpni88api21k01njantgovpbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebviewActivity">
+
+
+    <ImageView
+        android:id="@+id/conn_image"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/conn_image"
+        android:textSize="16dp"
+        android:id="@+id/conn_text"
+        android:textColor="@color/white_color"
+        android:text="No Internet Connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="14sp"
+        android:layout_below="@id/conn_text"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white_color"
+        android:text="Swipe to refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/web_swipe_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/main_webview_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
